@@ -1,1 +1,46 @@
-Logan Farci
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Selected software and developer tooling projects by Logan Farci, Software Engineer. Live applications and reproducible experiments.">
+  <title>Selected projects · Logan Farci</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#projects">Skip to projects</a>
+  <div class="page">
+    <header><a class="wordmark" href="https://www.loganfarci.com">Logan Farci<span>Software Engineer</span></a><nav aria-label="Main navigation"><a href="https://www.loganfarci.com">Website</a><a href="https://github.com/lfarci">GitHub</a></nav></header>
+    <main id="projects" tabindex="-1">
+      <section class="intro" aria-labelledby="page-title"><p class="eyebrow">A small collection of things I've built</p><h1 id="page-title">Engineering,<br>through projects.</h1><p class="lede">Software, developer tooling, and practical experiments. Each project shows the problem, the decisions, and the limits alongside the code.</p></section>
+      <div class="section-heading"><h2>Selected work</h2><span>02 projects</span></div>
+      <div class="projects">
+        <article aria-labelledby="quest-title">
+          <div class="preview quest" role="img" aria-label="Illustration of a checklist and progress bar representing the tracker; not an application screenshot."><div class="mini-window"><span class="mini-label">LEARN · TRACK · LEVEL UP</span><div class="mini-title">One challenge at a time.</div><div class="progress"><span></span></div><div class="check-row">✓ <span>A challenge completed</span></div><div class="check-row muted">○ <span>The next step</span></div></div><span class="preview-label">Project illustration</span></div>
+          <div class="project-body">
+            <p class="status"><span class="dot"></span>Live demo · personal learning app</p><h3 id="quest-title">C# Quest Tracker</h3>
+            <p>A browser-local companion for tracking challenges and XP while working through <cite>The C# Player's Guide</cite>, fifth edition.</p>
+            <dl><div><dt>Problem</dt><dd>Keep learning progress visible and transfer it between devices without an account.</dd></div><div><dt>My role</dt><dd>Personal project development: interface, progress tracking, and backup workflow.</dd></div><div><dt>Design</dt><dd>Static application with local browser storage and explicit CSV import/export. No backend or database.</dd></div></dl>
+            <ul class="stack" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li></ul>
+            <p class="limitation"><strong>Limits:</strong> No cloud sync; clearing browser storage can erase progress. An unofficial companion, not endorsed by the book's author.</p>
+            <div class="links"><a class="primary" href="https://lfarci.github.io/csharp-quest-tracker/">Try the tracker <span aria-hidden="true">↗</span></a><a href="https://github.com/lfarci/csharp-quest-tracker">Source &amp; documentation <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+        <article aria-labelledby="lab-title">
+          <div class="preview lab" role="img" aria-label="Illustration of one agent profile distributed to Copilot, Codex, and OpenCode, with instruction and restriction checks."><div class="lab-diagram"><span class="profile-node">agent profile</span><div class="connector"></div><div class="harnesses"><span>Copilot</span><span>Codex</span><span>OpenCode</span></div><div class="lab-result"><span>✓ instruction portability</span><span>! restriction gaps</span></div></div><span class="preview-label">Experiment overview</span></div>
+          <div class="project-body">
+            <p class="status"><span class="dot experiment"></span>Research lab · two experiments completed</p><h3 id="lab-title">Agent Portability Lab</h3>
+            <p>A reproducible investigation into distributing agent profiles across GitHub Copilot, Codex, and OpenCode with Microsoft APM.</p>
+            <dl><div><dt>Problem</dt><dd>Understand which parts of an agent setup carry between coding tools, and where native configuration is still needed.</dd></div><div><dt>My role</dt><dd>Experiment design, fixtures, compatibility checks, and documented observations.</dd></div><div><dt>Findings</dt><dd>Basic reviewer instructions transferred; tool-restriction translation exposed compatibility gaps.</dd></div></dl>
+            <ul class="stack" aria-label="Technologies"><li>Microsoft APM</li><li>Python</li><li>C# fixture</li><li>Coding agents</li></ul>
+            <p class="limitation"><strong>Limits:</strong> Narrow tests of APM 0.34.0 in October 2026. Runtime security enforcement was not tested; generated configuration is not proof of enforcement.</p>
+            <div class="links"><a class="primary" href="https://github.com/lfarci/agent-portability-lab">Explore the lab <span aria-hidden="true">↗</span></a><a href="https://github.com/lfarci/agent-portability-lab/tree/main/docs/results">Results &amp; limitations <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </article>
+      </div>
+      <aside class="closing"><h2>The thinking behind the work.</h2><p>I write about software engineering, cloud, developer tooling, and what I learn along the way.</p><a href="https://www.loganfarci.com/articles">Read my articles <span aria-hidden="true">↗</span></a></aside>
+    </main>
+    <footer><span>Logan Farci · Selected engineering projects</span><a href="https://github.com/lfarci/lfarci.github.io">Gallery source</a></footer>
+  </div>
+</body>
+</html>
